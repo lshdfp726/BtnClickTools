@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "lsh726" => "yunxiyaoyue@163.com" }
   s.source       = { :git => "https://github.com/lshdfp726/BtnClickTools.git", :tag => "1.0.4" }
   
-  s.source_files  = 'BtnClickTools/BtnClickTools/*.{h,m}'
+  s.source_files  = 'BtnClickTools/*.{h,m}'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
 end
