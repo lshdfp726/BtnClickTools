@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name         = "BtnClickTools"
   s.version      = "1.0.5"
-  s.summary      = "An Objective-C for short description of BtnClick create a target event"
+  s.summary      = "An Objective-C for short description of BtnClickTools create a target event"
   s.platform     = :ios, '8.0'
   s.homepage     = "https://github.com/lshdfp726/BtnClickTools.git"
   s.license      = "MIT"
