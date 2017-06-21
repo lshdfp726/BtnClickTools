@@ -11,7 +11,7 @@
 static const void *BtnKey = &BtnKey;
 @implementation UIButton (BtnClick)
 
-- (void)obsersverEvents:(UIControlEvents)event withBlock:(void (^)(id))sender {
+- (void)obsersverEvents:(UIControlEvents)event withBlock:(void (^)(id obj))sender {
     UIControlEvents events = event;
     if (!events) {
         return;
@@ -22,7 +22,7 @@ static const void *BtnKey = &BtnKey;
 
 
 - (void)BtnAction:(id)sender {
-     void(^btnAction)(id) = objc_getAssociatedObject(self, BtnKey);
+     void(^btnAction)(id obj) = objc_getAssociatedObject(self, BtnKey);
      btnAction(sender);
 }
 

@@ -10,7 +10,7 @@
 
 @interface UIButton (BtnClick)
 
-- (void)obsersverEvents:(UIControlEvents)event withBlock:(void(^)(id))sender;
+- (void)obsersverEvents:(UIControlEvents)event withBlock:(void(^)(id obj))sender;
 
 
 @end
